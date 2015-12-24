@@ -2,31 +2,20 @@
 
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<!--
-	
-	Welcome to Thinking Sound, a more-or-less monthly email put out by Meyer Sound.
-	
-	-->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Meyer Sound | Thinking Sound</title>
-	<style>
+	<style type="text/css">
 		/************ General Wrap ************/
 
 		.body_wrap{
 			margin: 0 auto;
-			width:600px;
+			width:640px;
 		}
 		.body_wrap td{
 			width: 600px;
 		}
-		.body_wrap .ms_logo{
-			width: 600px;
-		}
-		.body_wrap .ms_logo img{
-			width: 130px;
-		}
 		.logo_break{
-			height: 30px;
+			height: 40px;
 		}
 		img{
 			width:640px;
@@ -36,6 +25,28 @@
 		}
 		.rect_wrap{
 			width: 600px;
+		}
+		.image_shadow img{
+			box-shadow:0px 3px 5px #8c8c8c;
+			-webkit-box-shadow:0px 3px 5px #8c8c8c;
+			-moz-box-shadow:0px 3px 5px #8c8c8c;
+			transition: all 0.5s ease;
+		}
+		.image_shadow img:hover{
+			box-shadow:0px 3px 20px #797979;
+			-webkit-box-shadow:0px 3px 20px #797979;
+			-moz-box-shadow:0px 3px 20px #797979;
+		}
+		.image_shadow_dark img{
+			box-shadow:0px 3px 5px #222222;
+			-webkit-box-shadow:0px 3px 5px #222222;
+			-moz-box-shadow:0px 3px 5px #222222;
+			transition: all 0.5s ease;
+		}
+		.image_shadow_dark img:hover{
+			box-shadow:0px 3px 20px #000000;
+			-webkit-box-shadow:0px 3px 20px #000000;
+			-moz-box-shadow:0px 3px 20px #000000;
 		}
 		.datasheet_wrap{
 			width: 460px;
@@ -50,7 +61,7 @@
 			height: 25px;
 		}
 		.video_wrap{
-			width: 260px;
+			width: 280px;
 		}
 		.video_break{
 			height: 20px;
@@ -82,76 +93,6 @@
 		.active:hover{
 			cursor: pointer;
 		}
-		.image_shadow img{
-			box-shadow:0px 3px 5px #8c8c8c;
-			-webkit-box-shadow:0px 3px 5px #8c8c8c;
-			-moz-box-shadow:0px 3px 5px #8c8c8c;
-			transition: all 0.5s ease;
-		}
-		.image_shadow img:hover{
-			box-shadow:0px 3px 20px #797979;
-			-webkit-box-shadow:0px 3px 20px #797979;
-			-moz-box-shadow:0px 3px 20px #797979;
-		}
-		.image_shadow_dark img{
-			box-shadow:0px 3px 5px #222222;
-			-webkit-box-shadow:0px 3px 5px #222222;
-			-moz-box-shadow:0px 3px 5px #222222;
-			transition: all 0.5s ease;
-		}
-		.image_shadow_dark img:hover{
-			box-shadow:0px 3px 20px #000000;
-			-webkit-box-shadow:0px 3px 20px #000000;
-			-moz-box-shadow:0px 3px 20px #000000;
-		}
-			.twitter_white:hover{
-				display: inline-block;
-				background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_onWhite_hover.png);
-				 -moz-box-sizing: border-box;
-  				box-sizing: border-box;
-				width: 35px;
-				padding-left: 35px;
-				cursor: pointer;
-			}
-			.twitter_white img{
-				width: 35px;
-			}
-			.fb_white:hover{
-				display: inline-block;
-				background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_onWhite_hover.png);
-				 -moz-box-sizing: border-box;
-  				box-sizing: border-box;
-				width: 35px;
-				padding-left: 35px;
-				cursor: pointer;
-			}
-			.fb_white img{
-				width: 35px;
-			}
-			.twitter_icon:hover{
-				display: inline-block;
-				background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share_hover.png);
-				 -moz-box-sizing: border-box;
-  				box-sizing: border-box;
-				width: 35px;
-				padding-left: 35px;
-				cursor: pointer;
-			}
-			.twitter_icon img{
-				width: 35px;
-			}
-			.fb_icon:hover{
-				display: inline-block;
-				background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share_hover.png);
-				 -moz-box-sizing: border-box;
-  				box-sizing: border-box;
-				width: 35px;
-				padding-left: 35px;
-				cursor: pointer;
-			}
-			.fb_icon img{
-				width: 35px;
-			}
 		.event_table{
 			width: 600px;
 		}
@@ -167,19 +108,63 @@
 		.event_table .event_barrier{
 			width: 20px;
 		}
-		.intro td h1{
-			font-size: 28px;
-			line-height: 33px;
-		}
-		.event_info span{
-			color: #558ac8;
-			transition: color 0.5s ease;
-		}
-		.event_info span:hover{
-			color: #25557c;
-		}
 		.intro{
 			width: 600px;
+		}
+		.intro td h1{
+			font-size: 24px;
+			line-height: 33px;
+		}
+			.title tr td{
+				width: 80%;
+			}
+		.twitter_white:hover{
+			display: inline-block;
+			background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_onWhite_hover.png);
+			-moz-box-sizing: border-box;
+  			box-sizing: border-box;
+			width: 35px;
+			padding-left: 35px;
+			cursor: pointer;
+		}
+		.twitter_white img{
+			width: 35px;
+		}
+		.fb_white:hover{
+			display: inline-block;
+			background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_onWhite_hover.png);
+			-moz-box-sizing: border-box;
+  			box-sizing: border-box;
+			width: 35px;
+			padding-left: 35px;
+			cursor: pointer;
+		}
+		.fb_white img{
+			width: 35px;
+		}
+		.twitter_icon:hover{
+			display: inline-block;
+			background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share_hover.png);
+			-moz-box-sizing: border-box;
+  			box-sizing: border-box;
+			width: 35px;
+			padding-left: 35px;
+			cursor: pointer;
+		}
+		.twitter_icon img{
+			width: 35px;
+		}
+		.fb_icon:hover{
+			display: inline-block;
+			background: url(http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share_hover.png);
+			-moz-box-sizing: border-box;
+  			box-sizing: border-box;
+			width: 35px;
+			padding-left: 35px;
+			cursor: pointer;
+		}
+		.fb_icon img{
+			width: 35px;
 		}
 		.footer_ext{
 			display:inline-block;
@@ -200,21 +185,19 @@
 				display:inline-block;
 				width: 100%;
 			}
-			.body_wrap .ms_logo{
-				width: 100%;
-			}
 			.logo_break{
 				height: 30px;
 			}
-
+			.bottom{
+				height: 14px;
+			}
 			.ext_nav{
-				display: inline-block;
-				padding: 12px;
+				display: none;
+				padding: 20px;
 				width: 80%;
 				border-top: 1px solid #000000;
-				font-size:14px;
-				font-weight: normal;
-				line-height: 6px;
+				font-size:20px;
+				line-height: 26px;
 			}
 			.nav_footer{
 				height: 0;
@@ -232,6 +215,10 @@
 			.intro h4{
 				font-size: 16px;
 				line-height: 22px;
+			}
+			.intro td h1{
+				font-size: 24px;
+				line-height: 36px;
 			}
 			img{
 				width: 100%;
@@ -359,17 +346,17 @@
 			<td style="text-align:center;width:100%" align="center">
 				<table cellspacing="0" cellpadding="0" border="0" width="640" style="margin:0 auto;background-color:#222222;" class="body_wrap">
 					<tr>
-						<td colspan="5" align="center" height="20" style="line-height:21px;" class="logo_break">
+						<td colspan="4" align="center" height="40" style="line-height:21px;" class="logo_break">
 							<div></div>
 						</td>
 					</tr>
 					<tr>
-						<td colspan="5" align="center" style="/*background-color:green;*/" class="ms_logo">
-							<a href="http://www.meyersound.com"><img width="130" style="border:0;box-shadow:1px;" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/ms_logo_white.png" alt="Meyer Sound Logo" /></a>
+						<td colspan="4" align="center" style="/*background-color:green;*/">
+							<a href="http://www.meyersound.com"><img style="border:0;box-shadow:1px;width:130px;" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/ms_logo_white.png" alt="Meyer Sound Logo" /></a>
 						</td>
 					</tr>
 					<tr>
-						<td colspan="5" align="center" height="30" style="line-height:21px;" class="logo_break">
+						<td colspan="4" align="center" height="30" style="line-height:21px;" class="logo_break bottom">
 							<div></div>
 						</td>
 					</tr>
@@ -384,18 +371,18 @@
 							<a href="http://www.meyersound.com/news-index/" target="_blank" style="font-family:Arial, sans-serif;font-weight:normal;font-size:18px;color:#b0acac;text-decoration:none;"><span class="ext_nav">News</span></a>
 						</td>
 						<td align="center" style="vertical-align:bottom;/*background-color:red;*/">
-							<a href="http://www.meyersound.com/contact/" style="font-family:Arial, sans-serif;font-weight:normal;font-size:18px;color:#b0acac;text-decoration:none;"><span class="ext_nav">Contact</span></a>
-						</td>
-						<td align="center" style="vertical-align:bottom;/*background-color:red;*/">
 							<a href="http://www.meyersound.com/multimedia/" style="font-family:Arial, sans-serif;font-weight:normal;font-size:18px;color:#b0acac;text-decoration:none;"><span class="ext_nav">Videos</span></a>
 						</td>
 					</tr>
 					<tr>
-						<td colspan="3" align="center" height="14" style="line-height:21px;" class="nav_footer">
+						<td colspan="4" align="center" height="14" style="line-height:21px;" class="nav_footer">
 							<div></div>
 						</td>
 					</tr>
 				</table>
+
+<!-- *********************** TS LOGO  *****************************-->
+
 				<table cellspacing="0" align="center" border="0" style="margin:0 auto;background-color:#3a78c1;width:100%;border-spacing:0;" cellpadding="0">
 					<tr style="text-align:center;">
 						<td colspan="3" align="center" height="140" style="margin:0 auto;padding:0;" class="logo_wrap">
@@ -403,6 +390,9 @@
 						</td>
 					</tr>
 				</table>
+
+<!-- *********************** End TS LOGO  *****************************-->	
+
 			</td>
 		</tr>
 	</table>
@@ -447,8 +437,8 @@
 									<td>
 										<table cellpadding="0" cellspacing="0" align="center" width="420" style="margin:0 auto;" class="intro title">
 											<tr>
-												<td colspan="1" align="center" style="text-align:left;line-height:21px;font-size:32px;line-height:42px;">
-													<h1 style="margin:0 auto;font-family:Arial,sans-serif;font-weight:400;color:#222222;text-decoration:none;text-align:center;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Q &amp; A: Column System Worthy of<br />Konzerthaus Berlin</h1>
+												<td colspan="1" align="center" style="text-align:left;line-height:21px;font-size:24px;line-height:36px;">
+													<h1 style="margin:0 auto;font-family:Arial,sans-serif;font-weight:400;color:#222222;text-decoration:none;text-align:center;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Q &amp; A: Column System Worthy of Konzerthaus Berlin</h1>
 												</td>
 											</tr>
 										</table>
@@ -479,16 +469,10 @@
 										<table cellpadding="0" cellspacing="0" align="center" width="500" style="margin:0 auto;" class="intro">
 											<tr>
 												<td colspan="1" align="center" style="display:inline-block;padding:0;text-align:left;font-size:14px;line-height:20px;">
-													<span style="font-family:Verdana,Arial,sans-serif;font-weight:normal;color:#222222;text-decoration:none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Typically, column array loudspeakers are not found in leading symphonic halls as most systems aren't known for music and speech clarity. Marking a quantum advancement in delivering exceptional sonic quality and directionality, the CAL column array loudspeaker from Meyer Sound has now been chosen by three world-class classical music venues including <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank"><span class="">Vienna's Musikverein</span></a>, <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank">Amsterdam's Concertgebouw</a>, and <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank">Berlin's legendary Konzerthaus</a>.  
+													<span style="font-family:Verdana,Arial,sans-serif;font-weight:normal;color:#222222;text-decoration:none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Typically, column array loudspeakers are not found in leading symphonic halls as most systems aren't known for music and speech clarity. Marking a quantum advancement in delivering exceptional sonic quality and directionality, the CAL column array loudspeaker from Meyer Sound has now been chosen by three world-class classical music venues including <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank">Vienna's Musikverein</a>, <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank">Amsterdam's Concertgebouw</a>, and <a style="text-decoration:none;color:#5a85d7;" href="https://www.musikverein.at/" target="_blank">Berlin's legendary Konzerthaus</a>.  
 													<br />
 													<br />
-													CAL met the Konzerthaus's needs for architectural friendliness and, most importantly, for extraordinary music and speech reproduction in its Great Hall. In this Q&amp;A, project consultant Ralf Bauer-Diefenbach shares the clarity requirements for the project, his approach to achieving intelligibility, and the selection of CAL.
-													<br />
-													<br />
-													<strong>Q: In concert halls designed for orchestral music, what are the challenges in achieving good speech intelligibility?</strong>
-													<br />
-													<br />
-													<strong>Bauer-Diefenbach:</strong> Prestigious classical concert halls are designed with architectural features that give both the audience and musicians balanced late reverberations and the important early reflections. While this is great for classical music, late reverberations are damaging to speech intelligibility. It is even more complicated...<a href="http://www.meyersound.com/news/2015/drivers_amplifiers_q_and_a/" style="text-decoration:none;color:#5a85d7;" target="_blank"><span>Read More &raquo;</span></a>
+													CAL met the Konzerthaus's ...<a href="http://www.meyersound.com/news/2015/drivers_amplifiers_q_and_a/" style="text-decoration:none;color:#5a85d7;" target="_blank"><span>Read More &raquo;</span></a>
 													</span>
 												</td>
 											</tr>
@@ -528,10 +512,10 @@
 	</table>
 
 <!-- *********************** Resources/Product Datasheets *****************************-->
-	<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#b2b2b2;width:100%;/*border-top:1px solid #313336;*/" cellpadding="0">
+	<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#d2d2d2;width:100%;/*border-top:1px solid #313336;*/" cellpadding="0">
 		<tr>
 			<td>
-				<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" style="margin:0 auto;background-color:#b2b2b2;" class="body_wrap">
+				<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" style="margin:0 auto;" class="body_wrap">
 					<tr>
 						<td colspan="3" height="60" align="center">
 							<div></div>
@@ -539,57 +523,93 @@
 					</tr>
 					<tr>
 						<td colspan="3" align="center">
-							<span style="font-family:Arial, sans-serif;font-weight:bold;font-size:32px;color:#333333;text-align:center;	-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">New Resources</span>
+							<span style="font-family:Arial, sans-serif;font-weight:normal;font-size:24px;color:#333333;text-align:center;	-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">New Resources</span>
 						</td>
 					</tr>
 				</table>
-				<table cellspacing="0" cellpadding="0" border="0" width="640" align="center" style="margin:0 auto;padding:0px;background-color:#b2b2b2;text-align:left;" class="body_wrap">
+				<table cellspacing="0" cellpadding="0" border="0" width="640" align="center" style="margin:0 auto;padding:0px;text-align:left;" class="body_wrap">
 					<tr>
 						<td colspan="3" align="center" height="26">
 							<div></div>
 						</td>
 					</tr>
+
+<!--*********************** Document Row 1 *****************************-->
+
 					<tr>
-						<td align="center" colspan="3">
-							<table id="datasheets" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="margin:0 auto;padding:0px;background-color:#cecece;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:0px 2px 5px #6a6a6a;" class="rect_wrap">
-								<tr>
-									<td colspan="3" align="center" height="25" style="line-height:21px;">
-										<div></div>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="3" align="center">
-										<table cellspacing="0" cellpadding="0" align="center" border="0" width="460" style="margin:0 auto;height:20px;" class="datasheet_wrap">
+						<td colspan="3" align="center" height="20" style="line-height:21px;"></td>
+					</tr>
+					<tr>
+
+<!--*********************** Document Left *****************************-->
+
+									<td colspan="1" align="right" style="vertical-align:top;">
+										<table cellspacing="0" cellpadding="0" border="0" width="260" class="video_wrap">
 											<tr>
-												<td colspan="1" width="190" align="center" class="datasheets">
-													<span style="font-family:Arial,sans-serif;font-size:20px;font-weight:bold;color:#626060;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">500-HP Datasheet</span>
-													<br />
-													<br />
-													<a href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/500-hp_ds.pdf" target="_blank"><img src="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/current/500-hp_ds.jpg" alt="500-HP Datasheet" style="font-family:Arial,sans-serif;font-size:14px;color:#558ac8;background-color:#444444;width:190px;height:246px;text-align:center;border:0;box-shadow:0px 2px 5px #8c8c8c;" /></a>
+												<td colspan="2" align="center" style="vertical-align:top;" class="image_shadow_dark">
+													<a href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/500-hp_ds.pdf" target="_blank"><img src="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/current/500-hp_ds.jpg" alt="500-HP Datasheet" style="font-family:Arial,sans-serif;font-size:14px;color:#558ac8;background-color:#444444;width:190px;height:246px;text-align:center;border:0;" /></a>
 												</td>
-												<td colspan="1" width="40" class="data_break">
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="20" style="line-height:21px;">
 													<div></div>
 												</td>
-												<td colspan="1" width="190" align="center" class="datasheets">
-													<span style="font-family:Arial,sans-serif;font-size:20px;font-weight:bold;color:#626060;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">LEOPARD Datasheet</span>
-													<br />
-													<br />
-													<a href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/leopard_ds.pdf" target="_blank"><img src="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/current/leopard_ds.jpg" alt="LEOPARD Datasheet" style="font-family:Arial,sans-serif;font-size:14px;color:#558ac8;background-color:#444444;width:190px;height:246px;text-align:center;border:0;box-shadow:0px 2px 5px #8c8c8c;" /></a>
+											</tr>
+											<tr>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/500-hp_ds.pdf" target="_blank"><span style="font-family:Arial,sans-serif;font-size:17px;font-weight:normal;color:#626060;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">500-HP Datasheet</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="10" style="line-height:21px;">
+													<div></div>
 												</td>
 											</tr>
 										</table>
 									</td>
-								</tr>
-								<tr>
-									<td colspan="3" align="center" height="25" style="line-height:21px;" class="data_border">
-										<div></div>
+
+<!--*********************** End Document Left *****************************-->
+
+<!--*********************** Document Right *****************************-->
+
+									<td colspan="1" align="left" style="vertical-align:top;">
+										<table cellspacing="0" cellpadding="0" border="0" width="260" class="video_wrap">
+											<tr>
+												<td colspan="2" align="center" class="image_shadow_dark">
+													<a href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/leopard_ds.pdf" target="_blank"><img src="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/current/leopard_ds.jpg" alt="LEOPARD Datasheet" style="font-family:Arial,sans-serif;font-size:14px;color:#558ac8;background-color:#444444;width:190px;height:246px;text-align:center;border:0;" /></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="20" style="line-height:21px;">
+													<div></div>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="http://www.meyersound.com/mail/newsletter/elements/2015_datasheets/products/leopard_ds.pdf" target="_blank"><span style="font-family:Arial,sans-serif;font-size:17px;font-weight:normal;color:#626060;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">LEOPARD Datasheet</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="10" style="line-height:21px;">
+													<div></div>
+												</td>
+											</tr>
+										</table>
 									</td>
-								</tr>
-							</table>
+
+<!--*********************** End Document Right *****************************-->
+
+					</tr>
+
+<!--*********************** End Document Row 1 *****************************-->
+
+					<tr>
+						<td colspan="3" align="center" height="20" style="line-height:21px;">
+							<div></div>
 						</td>
 					</tr>
 					<tr>
-						<td colspan="3" align="center" height="56">
+						<td colspan="3" align="center" height="60">
 							<div></div>
 						</td>
 					</tr>
@@ -601,7 +621,7 @@
 
 <!--*********************** Multi-Video Section *****************************-->
 
-	<table id="videos" align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#2f373f;width:100%;" cellpadding="0">
+	<table id="videos" align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#c2c2c2;width:100%;" cellpadding="0">
 		<tr>
 			<td>
 				<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" style="margin:0 auto;" class="body_wrap">
@@ -617,22 +637,21 @@
 					</tr>
 					<tr>
 						<td colspan="3" height="0" align="center">
-							<span style="font-family:Arial, sans-serif;font-weight:bold;font-size:32px;color:#fafafa;text-align:center;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Latest Videos</span>
+							<span style="font-family:Arial, sans-serif;font-weight:normal;font-size:24px;color:#2f373f;text-align:center;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Latest Videos</span>
 						</td>
 					</tr>
 				</table>
 				<table cellspacing="0" cellpadding="0" border="0" width="640" align="center" style="margin:0 auto;padding:0px;text-align:left;" class="body_wrap">
 					<tr>
-						<td colspan="3" height="26"></td>
+						<td colspan="3" align="center" height="26">
+							<div></div>
+						</td>
 					</tr>
 
 <!--*********************** Video Row 01 *****************************-->
 
-					<tr>
-						<td colspan="3" align="center">
-							<table cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="margin:0 auto;padding:0px;background-color:#868e96;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:0px 2px 5px #222222;" class="rect_wrap">
 								<tr>
-									<td colspan="2" align="center" height="40" style="line-height:21px;">
+									<td colspan="2" align="center" height="20" style="line-height:21px;">
 										<div></div>
 									</td>
 								</tr>
@@ -644,17 +663,7 @@
 										<table cellspacing="0" cellpadding="0" border="0" width="260" class="video_wrap">
 											<tr>
 												<td colspan="2" align="center" style="vertical-align:top;" class="image_shadow_dark">
-													<a href="http://www.meyersound.com/multimedia/#220" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/mapp_xt_rotate_mode_tutorial.png" alt="Testing LEOPARD at Zellerbach Video" style="width:200px;border:0;" /></a>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center" height="16" style="line-height:21px;">
-													<div></div>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center">
-													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#220" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;"><strong>Product Tutorial</strong><br />MAPP XT Rotate Mode</span></a>
+													<a href="http://www.meyersound.com/multimedia/#220" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/mapp_xt_rotate_mode_tutorial.png" alt="MAPP XT Product Tutorial" style="width:200px;border:0;" /></a>
 												</td>
 											</tr>
 											<tr>
@@ -663,9 +672,13 @@
 												</td>
 											</tr>
 											<tr>
-												<td align="center">
-													<a href="https://twitter.com/home?status=Meyer%20Sound%20tests%20their%20exemplary%20LEOPARD%20sound%20system%20at%20Zellerbach%20Hall!" target="_blank"><img style="border:0;" width="35" class="twitter_icon" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share.png" alt="Share on Twitter" /></a>
-													<a href="http://www.facebook.com/share.php?u=https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share.png" class="fb_icon" alt="Share on Facebook" /></a>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#220" target="_blank"><span style="font-family:Helvetica,Arial,sans-serif;font-size:17px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Product Tutorial<br />MAPP XT Rotate Mode</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="14" style="line-height:21px;">
+													<div></div>
 												</td>
 											</tr>
 										</table>
@@ -683,24 +696,18 @@
 												</td>
 											</tr>
 											<tr>
-												<td colspan="2" align="center" height="16" style="line-height:21px;">
-													<div></div>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center">
-													<a style="text-decoration:none;" href="https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;"><strong>Testing LEOPARD</strong><br />at Zellerbach</span></a>
-												</td>
-											</tr>
-											<tr>
 												<td colspan="2" align="center" height="20" style="line-height:21px;">
 													<div></div>
 												</td>
 											</tr>
 											<tr>
-												<td align="center">
-													<a href="https://twitter.com/home?status=Meyer%20Sound%20tests%20their%20exemplary%20LEOPARD%20sound%20system%20at%20Zellerbach%20Hall!" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share.png" class="twitter_icon" alt="Share on Twitter" /></a>
-													<a href="http://www.facebook.com/share.php?u=https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share.png" class="fb_icon" alt="Share on Facebook" /></a>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><span style="font-family:Helvetica,Arial,sans-serif;font-size:17px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Testing LEOPARD<br />at Zellerbach</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="14" style="line-height:21px;">
+													<div></div>
 												</td>
 											</tr>
 										</table>
@@ -738,17 +745,7 @@
 										<table cellspacing="0" cellpadding="0" border="0" width="260" class="video_wrap">
 											<tr>
 												<td colspan="2" align="center" class="image_shadow_dark">
-													<a href="http://www.meyersound.com/multimedia/#218" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/big_mick_hughes_leo_and_1100-lfc.png" alt="Testing LEOPARD at Zellerbach Video" style="width:200px;border:0;" /></a>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center" height="16" style="line-height:21px;">
-													<div></div>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center">
-													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#218" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;"><strong>&ldquo;Big Mick&rdquo; Hughes</strong><br />LEO and 1100-LFC</span></a>
+													<a href="http://www.meyersound.com/multimedia/#218" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/big_mick_hughes_leo_and_1100-lfc.png" alt="Mick Hughes talks about the LEO Family" style="width:200px;border:0;" /></a>
 												</td>
 											</tr>
 											<tr>
@@ -757,9 +754,13 @@
 												</td>
 											</tr>
 											<tr>
-												<td align="center">
-													<a href="https://twitter.com/home?status=Meyer%20Sound%20tests%20their%20exemplary%20LEOPARD%20sound%20system%20at%20Zellerbach%20Hall!" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share.png" class="twitter_icon" alt="Share on Twitter" /></a>
-													<a href="http://www.facebook.com/share.php?u=https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share.png" class="fb_icon" alt="Share on Facebook" /></a>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#218" target="_blank"><span style="font-family:Helvetica,Arial,sans-serif;font-size:17px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">&ldquo;Big Mick&rdquo; Hughes<br />LEO and 1100-LFC</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="14" style="line-height:21px;">
+													<div></div>
 												</td>
 											</tr>
 										</table>
@@ -773,17 +774,7 @@
 										<table cellspacing="0" cellpadding="0" border="0" width="260" class="video_wrap">
 											<tr>
 												<td colspan="2" align="center" class="image_shadow_dark">
-													<a href="http://www.meyersound.com/multimedia/#205" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/mjf-210_james-hetfield.png" alt="Testing LEOPARD at Zellerbach Video" style="width:200px;border:0;" /></a>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center" height="16" style="line-height:21px;">
-													<div></div>
-												</td>
-											</tr>
-											<tr>
-												<td colspan="2" align="center">
-													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#205" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;"><strong>James Hetfield</strong><br />Talks about the MJF-210</span></a>
+													<a href="http://www.meyersound.com/multimedia/#205" target="_blank"><img width="200" src="http://www.meyersound.com/multimedia/elements/featured_video_images/mjf-210_james-hetfield.png" alt="James Hetfield and the MJF-210" style="width:200px;border:0;" /></a>
 												</td>
 											</tr>
 											<tr>
@@ -792,9 +783,13 @@
 												</td>
 											</tr>
 											<tr>
-												<td align="center">
-													<a href="https://twitter.com/home?status=Meyer%20Sound%20tests%20their%20exemplary%20LEOPARD%20sound%20system%20at%20Zellerbach%20Hall!" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/twitter_icon_share.png" class="twitter_icon" alt="Share on Twitter" /></a>
-													<a href="http://www.facebook.com/share.php?u=https://www.youtube.com/watch?v=qddGlr-VuvY" target="_blank"><img style="border:0;" width="35" src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/fb_icon_share.png" class="fb_icon" alt="Share on Facebook" /></a>
+												<td colspan="2" align="center">
+													<a style="text-decoration:none;" href="http://www.meyersound.com/multimedia/#205" target="_blank"><span style="font-family:Helvetica,Arial,sans-serif;font-size:17px;font-weight:normal;color:#2f373f;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">James Hetfield<br />Talks about the MJF-210</span></a>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center" height="14" style="line-height:21px;">
+													<div></div>
 												</td>
 											</tr>
 										</table>
@@ -814,14 +809,6 @@
 
 <!--*********************** End Video Row 02 *****************************-->
 
-					<tr>
-						<td colspan="3" align="center" height="20">
-							<div></div>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
 		<tr><td colspan="3" height="60"></td></tr>
 	</table>
 
@@ -829,10 +816,10 @@
 
 <!-- *********************** Events *****************************-->
 
-	<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#cecece;width:100%;/*border-top:1px solid #313336;*/" cellpadding="0">
+	<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#b2b2b2;width:100%;/*border-top:1px solid #313336;*/" cellpadding="0">
 		<tr>
 			<td>
-				<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" style="margin:0 auto;background-color:#cecece;" class="body_wrap">
+				<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" style="margin:0 auto;" class="body_wrap">
 					<tr>
 						<td colspan="3" height="60" align="center">
 							<div></div>
@@ -840,11 +827,11 @@
 					</tr>
 					<tr>
 						<td colspan="3" align="center">
-							<span style="font-family:Arial, sans-serif;font-weight:bold;font-size:32px;color:#333333;text-align:center;	-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Event Highlights</span>
+							<span style="font-family:Arial, sans-serif;font-weight:normal;font-size:24px;color:#333333;text-align:center;	-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Event Highlights</span>
 						</td>
 					</tr>
 				</table>
-				<table cellspacing="0" cellpadding="0" border="0" width="640" align="center" style="margin:0 auto;padding:0px;background-color:#cecece;text-align:left;" class="body_wrap">
+				<table cellspacing="0" cellpadding="0" border="0" width="640" align="center" style="margin:0 auto;padding:0px;text-align:left;" class="body_wrap">
 					<tr>
 						<td colspan="3" align="center" height="26">
 							<div></div>
@@ -858,29 +845,6 @@
 										<div></div>
 									</td>
 								</tr>
-								<!--<tr>
-									<td colspan="3" align="center">
-										<table cellspacing="0" cellpadding="0" align="center" border="0" width="460" style="margin:0 auto;height:20px;" class="event_table">
-											<tr>
-												<td colspan="1" width="180" align="right" class="event_logo">
-													<a style="border:0;" href="http://www.iseurope.org/home.php" target="_blank"><img src="http://www.meyersound.com/email/email_redesign/thinking_sound/img/livedesign_logo.jpg" alt="Live Design Studio" style="border:0;width:180px;" /></a>
-												</td>
-												<td colspan="1" width="20" class="event_barrier">
-													<div></div>
-												</td>
-												<td colspan="1" width="280" align="left" class="event_info">
-													<a style="text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;color:#558ac8;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Live Design Master Classes</span></a><br />
-													<span style="font-family:Arial,sans-serif;font-size:14px;font-weight:normal;color:#666666;line-height:19px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale;">Aug. 15&ndash;17&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Birmingham, AL</span>
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="3" align="center" height="40" weight="480" style="line-height:21px;" class="event_table">
-										<div style="border-bottom:1px solid #a1a1a1;"></div>
-									</td>
-								</tr>-->
 								<tr>
 									<td colspan="3" align="center">
 										<table cellspacing="0" cellpadding="0" align="center" border="0" width="460" style="margin:0 auto;height:20px;" class="event_table">
@@ -892,7 +856,7 @@
 													<div></div>
 												</td>
 												<td colspan="1" width="280" align="left" class="event_info">
-													<a style="color:#558ac8;text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Live Design Master Classes</span></a><br />
+													<a style="text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;color:#558ac8;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Live Design Master Classes</span></a><br />
 													<span style="font-family:Arial,sans-serif;font-size:14px;font-weight:normal;color:#666666;line-height:19px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale;">Aug. 15&ndash;17&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Birmingham, AL</span>
 												</td>
 											</tr>
@@ -925,7 +889,7 @@
 													<div></div>
 												</td>
 												<td colspan="1" width="280" align="left" class="event_info">
-													<a style="color:#558ac8;text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">InfoComm International 2015 </span></a><br />
+													<a style="text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;color:#558ac8;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">InfoComm International 2015 </span></a><br />
 													<span style="font-family:Arial,sans-serif;font-size:14px;font-weight:normal;color:#666666;line-height:19px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale;">June 17&ndash;19&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Orlando, FL</span>
 												</td>
 											</tr>
@@ -958,7 +922,7 @@
 													<div></div>
 												</td>
 												<td colspan="1" width="280" align="left" class="event_info">
-													<a style="color:#558ac8;text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Integrated Systems Europe 2015</span></a><br />
+													<a style="text-decoration:none;" href="http://www.iseurope.org/home.php" target="_blank"><span style="font-family:Arial,sans-serif;font-size:18px;font-weight:bold;color:#558ac8;line-height:24px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Integrated Systems Europe 2015</span></a><br />
 													<span style="font-family:Arial,sans-serif;font-size:14px;font-weight:normal;color:#666666;line-height:19px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale;">Feb. 10&ndash;12&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Amsterdam, The Netherlands</span>
 												</td>
 											</tr>
@@ -985,74 +949,82 @@
 <!--*********************** End Events *****************************-->
 
 
+
 <!--*********************** Footer *****************************-->
 
-	<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#222222;width:100%;" cellpadding="0">
-		<tr>
-			<td>
-				<table cellpadding="0" cellspacing="0" border="0" align="center" width="220" style="margin:0 auto;border-collapse:collapse; text-align:center;" class="footer">
-					<tr>
-						<td colspan="3" align="center" height="20" style="line-height:21px;">
-							<div></div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center">
-							<span style="font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Follow Us:</span>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center" height="0" style="line-height:21px;">
-							<div></div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center">
-							<a href="https://twitter.com/MeyerSound" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/twitter_icon.png" alt="Visit Us on Twitter" /></a>
-							<a href="https://www.facebook.com/meyersoundlabs" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/fb_icon.png" alt="Visit Us on Facebook" /></a>
-							<a href="https://www.linkedin.com/company/meyer-sound" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/linkedin_icon.png" alt="Visit Us on LinkedIn" /></a>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center" height="0" style="line-height:21px;">
-							<div></div>
-						</td>
-					</tr>
+				<table align="center" cellspacing="0" border="0" width="100%" style="margin:0 auto;border-collapse:collapse;border-spacing:0;padding:0;background-color:#222222;width:100%;" cellpadding="0">
 					<tr>
 						<td>
-							<table cellpadding="0" cellspacing="0" border="0" align="left" style="margin:0 auto;text-align:center;background-color:#222222;" class="footer_ext">
+							<table cellpadding="0" cellspacing="0" border="0" align="center" width="440" style="margin:0 auto;border-collapse:collapse; text-align:center;" class="footer">
 								<tr>
-									<td colspan="1" align="center">
-										<a href="http://www.meyersound.com/email/email_redesign/thinking_sound/index_v3.html" style="text-decoration:none;font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">View in Browser</a>
+									<td colspan="3" align="center" height="20" style="line-height:21px;">
+										<div></div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" align="center">
+										<a href="https://twitter.com/MeyerSound" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/twitter_icon.png" alt="Visit Us on Twitter" /></a>
+										<a href="https://www.facebook.com/meyersoundlabs" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/fb_icon.png" alt="Visit Us on Facebook" /></a>
+										<a href="https://www.linkedin.com/company/meyer-sound" target="_blank"><img border="5" style="width:35px;height:35px;border-color:#222222;" width="35" src="http://www.meyersound.com/email/email_redesign/sound_source/img/linkedin_icon.png" alt="Visit Us on LinkedIn" /></a>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" align="center" height="0" style="line-height:21px;">
+										<div></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer_ext">
+										<table cellpadding="0" cellspacing="0" border="0" align="left" style="margin:0 auto;text-align:center;background-color:#222222;" class="footer_ext">
+											<tr>
+												<td colspan="1" width="80">
+													<a href="http://www.meyersound.com/contact/" style="text-decoration:none;font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Contact</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="footer_ext">
+										<table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;text-align:center;background-color:#222222;" class="footer_ext">
+											<tr>
+												<td colspan="1" width="140" align="center">
+													<a href="http://www.meyersound.com/email/email_redesign/thinking_sound/index_v3.html" style="text-decoration:none;font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">View in Browser</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+												<!--<td colspan="1" width="40" align="center"></td>-->
+									<td class="footer_ext">
+										<table cellpadding="0" cellspacing="0" border="0" align="right" style="margin:0 auto;text-align:center;background-color:#222222;" class="footer_ext">
+											<tr>
+												<td colspan="1" width="80">
+													<a href="www.meyersound.com" style="text-decoration:none;font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Unsubscribe</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" align="center" height="0" style="line-height:21px;">
+										<div></div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" align="center">
+										<span style="font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">&copy; Meyer Sound</span>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" align="center" height="40" style="line-height:21px;">
+										<div></div>
 									</td>
 								</tr>
 							</table>
-									<!--<td colspan="1" width="40" align="center"></td>-->
-							<table cellpadding="0" cellspacing="0" border="0" align="right" style="margin:0 auto;text-align:center;background-color:#222222;" class="footer_ext">
-								<tr>
-									<td colspan="1" align="center">
-										<a href="www.meyersound.com" style="text-decoration:none;font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">Unsubscribe</a>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center" height="0" style="line-height:21px;">
-							<div></div>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center">
-							<span style="font-family:Arial, sans-serif;font-size:14px;color:#eeeded;line-height:32px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">&copy; Meyer Sound</span>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" align="center" height="40" style="line-height:21px;">
-							<div></div>
 						</td>
 					</tr>
 				</table>
+
+<!--*********************** End Footer *****************************-->
+
 			</td>
 		</tr>
 	</table>
